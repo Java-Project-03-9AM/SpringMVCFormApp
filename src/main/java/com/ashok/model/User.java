@@ -5,6 +5,7 @@ public class User {
 	private String uname;
 	private String pwd;
 	private String email;
+	private Long phno;
 
 	public String getUname() {
 		return uname;
