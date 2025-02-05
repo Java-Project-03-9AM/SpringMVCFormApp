@@ -10,7 +10,7 @@ import com.ashok.model.User;
 
 @Controller
 public class UserController {
-
+//testing
 	@RequestMapping(value = "/displayForm.htm", method = RequestMethod.GET)
 	public String displayForm(Model model) {
 		System.out.println("hi");
@@ -24,5 +24,6 @@ public class UserController {
 		model.addAttribute("user", u);
 		return "display";
 	}
+	
 
 }
